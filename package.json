@@ -1,18 +1,8 @@
 {
-  "name": "@trbll/sense-hat-led",
+  "name": "agl-sense-hat-led",
   "description": "Control your sense hat led matrix with node",
-  "author": "Tyler Bell <tyler-bell@uiowa.edu>",
-  "contributors": [
-    {
-      "name": "Tyler Bell",
-      "email": "tyler-bell@uiowa.edu"
-    },
-    {
-      "name": "Aonghus O Nia",
-      "email": ""
-    }
-  ],
-  "version": "1.0.2",
+  "author": "Prem",
+  "version": "1.0.0",
   "main": "index.js",
   "engines" : { "node" : ">=6" },
   "license": "MIT",
@@ -27,11 +17,11 @@
     "led"
   ],
   "dependencies": {
-    "glob": "7.0.3",
-    "pngjs": "2.3.1",
-    "sleep": "6.1.0"
+    "glob":"^10.3.10",
+    "pngjs":"^7.0.0",
+    "sleep": "^6.3.0"
   },
   "devDependencies": {
-    "async": "*"
+    "async": "^3.2.5"
   }
 }
