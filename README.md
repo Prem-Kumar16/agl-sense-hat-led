@@ -5,7 +5,7 @@ Hardware
 
 ## Note
 
-This is a fork of aonghusonia/sense-hat-led that updates dependencies for at least Node v12.
+This is a fork of trbll/sense-hat-led that updates dependencies for at least Node v12.
 
 (Originally a fork of Jochen Hinrichsen's [sense-hat-matrix](https://github.com/jhinrichsen/sense-hat-matrix) library).
 
