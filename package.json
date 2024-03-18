@@ -2,9 +2,11 @@
   "name": "agl-sense-hat-led",
   "description": "Control your sense hat led matrix with node, using it for AGL demo",
   "author": "Prem",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
-  "engines" : { "node" : ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -17,8 +19,8 @@
     "led"
   ],
   "dependencies": {
-    "glob":"^10.3.10",
-    "pngjs":"^7.0.0"
+    "glob": "^10.3.10",
+    "pngjs": "^7.0.0"
   },
   "devDependencies": {
     "async": "^3.2.5"
