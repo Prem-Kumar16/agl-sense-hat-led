@@ -6,11 +6,11 @@ const fs = require('fs');
 const glob = require('glob');
 const path = require('path');
 const PNG = require('pngjs').PNG;
-const usleep = require('sleep').usleep;
+//const usleep = require('sleep').usleep;
 
-function sleep(s) {
+/*function sleep(s) {
   usleep(s * 1000000);
-}
+}*/
 
 // find sense hat matrix framebuffer
 const fb = findFB();
@@ -456,7 +456,7 @@ function showMessageSync(textString, scrollSpeed = 0.1, textColor, backColor) {
   function scroll(pixels) {
     if (pixels.length < 64) return;
     setPixelsSync(pixels.slice(0, 64));
-    sleep(scrollSpeed);
+    //sleep(scrollSpeed);
     scroll(pixels.slice(8));
   }
 
@@ -553,7 +553,7 @@ function flashMessageSync(message, speed = 0.5, textColor, backColor) {
   message.split('')
     .forEach(char => {
       showLetterSync(char, textColor, backColor);
-      sleep(speed);
+      //sleep(speed);
     });
 }
 
@@ -658,7 +658,7 @@ module.exports = {
   //   return setLowLight(bol);
   // },
   sync: {
-    sleep: sleep,
+    //sleep: sleep,
     clear: clearSync,
     getPixel: getPixelSync,
     setPixel: setPixelSync,

@@ -18,8 +18,7 @@
   ],
   "dependencies": {
     "glob":"^10.3.10",
-    "pngjs":"^7.0.0",
-    "sleep": "^6.3.0"
+    "pngjs":"^7.0.0"
   },
   "devDependencies": {
     "async": "^3.2.5"
