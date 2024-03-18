@@ -1,6 +1,6 @@
 {
   "name": "agl-sense-hat-led",
-  "description": "Control your sense hat led matrix with node",
+  "description": "Control your sense hat led matrix with node, using it for AGL demo",
   "author": "Prem",
   "version": "1.0.0",
   "main": "index.js",
@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/trbll/sense-hat-led.git"
+    "url": "https://github.com/Prem-Kumar16/agl-sense-hat-led.git"
   },
   "keywords": [
     "raspberry",
